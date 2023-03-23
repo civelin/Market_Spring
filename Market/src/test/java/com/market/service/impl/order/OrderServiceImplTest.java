@@ -136,7 +136,7 @@ public class OrderServiceImplTest {
 
     private User initUser() {
         User user1 = new User("testUser", "testPassword", new Role(RoleNameEnum.CUSTOMER),
-                "Tsvetelina", "Ivanova", "cvetelinaivanova7@gmail.com",
+                "Tsvetelina", "Ivanova", "tututu@abv.bg",
                 24, 2000.0, "0886861648", true
         );
 

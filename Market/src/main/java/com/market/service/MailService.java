@@ -24,7 +24,7 @@ public class MailService {
     public void sendMailWithAttachment(String to, String subject, String body) {
         MimeMessagePreparator preparator = mimeMessage -> {
             mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress(to));
-            mimeMessage.setFrom(new InternetAddress("cvetelinaivanova7@gmail.com"));
+            mimeMessage.setFrom(new InternetAddress("tututu@abv.com"));
             mimeMessage.setSubject(subject);
             mimeMessage.setText("a");
 

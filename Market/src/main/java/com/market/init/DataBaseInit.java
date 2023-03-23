@@ -43,7 +43,7 @@ public class DataBaseInit implements CommandLineRunner {
                     roleRepository.findRoleByName(RoleNameEnum.ADMIN),
                     "Admin",
                     "Adminov",
-                    "cvetelinaivanova7@gmail.com",
+                    "tututu@abv.bg",
                     50, null, null,
                     true);
             String encodedPassword = passwordEncoder.encode(user.getPassword());

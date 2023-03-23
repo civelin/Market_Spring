@@ -11,7 +11,7 @@ spring:
         hibernate.order_by.default_null_ordering: last
     mail:
         host: smtp.gmail.com
-        password: eeueyzfvkiyqdsds
+        password:
         port: 587
         properties:
             mail:
@@ -27,7 +27,7 @@ spring:
                     writetimeout: 5000
                 transport:
                     protocol: smtp
-        username: cvetelinaivanova7@gmail.com
+        username: admin123@gmail.com
     security:
         user:
             name: root
